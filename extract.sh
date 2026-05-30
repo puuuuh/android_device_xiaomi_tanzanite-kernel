@@ -5,9 +5,9 @@ rm ./modules.load.*
 
 mkdir ./modules
 
-cp $2/ramdisk00/lib/modules/*.ko ./modules/
 cp $1/vendor_dlkm/lib/modules/*.ko ./modules/
 cp $1/system_dlkm/lib/modules/*.ko ./modules/
+cp $2/ramdisk00/lib/modules/*.ko ./modules/
 cp ./stub_scp.ko ./modules/
 
 cp $2/ramdisk00/lib/modules/modules.load ./modules.load.vendor_ramdisk

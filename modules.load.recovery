@@ -191,3 +191,11 @@ perfhelper.ko
 mi_schedule.ko
 metis.ko
 bq28z610.ko
+xiaomi.ko
+stub_scp.ko
+lct_tp.ko
+mtk-mbox.ko
+mtk_rpmsg_mbox.ko
+mtk_tinysys_ipi.ko
+switch_class.ko
+ft3519t.ko
